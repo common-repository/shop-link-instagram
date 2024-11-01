@@ -1,0 +1,388 @@
+#insta_feed_admin{
+	overflow: hidden;
+}
+#insta_feed_admin #header{
+	padding: 0 0 10px 0;
+}
+#insta_feed_admin h3{
+	padding: 15px 0 0 0;
+}
+#insta_feed_admin .insta_feed_tooltip{
+	width: 80%;
+	display: none;
+
+	padding: 10px 15px;
+	margin: 10px 0;
+	font-size: 13px;
+	background: #f9f9f9;
+	background: rgba(255,255,255,0.8);
+	
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+}
+#insta_feed_admin .insta_feed_more_info p{
+	font-size: 13px;
+}
+#insta_feed_admin .insta_feed_tooltip ul{
+	margin-top: 0;	
+	margin-bottom: 0;
+}
+#insta_feed_admin .insta_feed_tooltip li{
+	padding: 4px 0;
+}
+#insta_feed_admin .insta_feed_tooltip_link,
+#insta_feed_admin .insta_feed_external_link{
+	font-size: 13px;
+	margin-left: 10px;
+}
+#insta_feed_admin hr{
+	border: none;
+	margin: 15px 0;
+	border-bottom: 1px solid #ccc;
+}
+/* Instagram btn */
+#insta_feed_admin .insta_feed_admin_btn{
+	display: block;
+	float: left;
+	clear: both;
+	padding: 0 21px 0 160px;
+	height: 47px;
+	line-height: 47px;
+
+	background: #386793 url('../img/small-logo.png') no-repeat 16px 11px;
+
+	color: #e9eef3;
+	text-decoration: none;
+
+	-moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+#insta_feed_admin .insta_feed_admin_btn:hover{
+	background-color: #3880c4;
+	color: #fff;
+
+	-moz-transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+#insta_feed_admin .insta_feed_note{
+	font-size: 12px;
+	font-style: italic;
+	margin-left: 10px;
+}
+#insta_feed_admin table.insta_feed_shortcode_table{
+	border-collapse: collapse;
+}
+#insta_feed_admin table.insta_feed_shortcode_table th,
+#insta_feed_admin table.insta_feed_shortcode_table td{
+  border: 1px solid #999;
+  padding: 0.5rem;
+  text-align: left;
+}
+#insta_feed_admin table.insta_feed_shortcode_table th{
+	background: rgba(0,0,0,0.1);
+}
+#insta_feed_admin table.insta_feed_shortcode_table td{
+	background: rgba(255,255,255,0.5);
+}
+#insta_feed_admin .insta_feed_table_header{
+	background: #ddd;
+	font-weight: bold;
+}
+
+#insta_feed_admin .insta_feed_radio_label{
+	width: 70px;
+	padding-top: 5px;
+
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: top;
+	zoom: 1;
+	*display: inline;
+}
+
+/* Config info */
+#insta_feed_config{
+	float: left;
+	width: 100%;
+	clear: both;
+	margin: 10px 0 10px 0;
+}
+#insta_feed_config_info{
+	float: left;
+	clear: both;
+	padding: 5px 15px;
+	margin: 10px 0 0 0;
+
+	background: #fff;
+	border: 1px solid #ddd;
+
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+
+	-moz-border-radius: 2px;
+  	-webkit-border-radius: 2px;
+  	border-radius: 2px;
+}
+
+/* License */
+#insta_feed_admin .insta_feed_license_status{
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: top;
+	zoom: 1;
+	*display: inline;
+	
+	padding: 5px;
+}
+
+/* Add Facebook dashicon to CFF admin menu */
+#toplevel_page_sb-instagram-feed .toplevel_page_sb-instagram-feed .wp-menu-image:before{
+	content: "\f306";
+}
+
+/* Pro only notices */
+#insta_feed_admin .insta_feed_row{
+	display: block;
+	width: 100%;
+}
+#insta_feed_admin .insta_feed_pro,
+#insta_feed_admin .insta_feed_pro label{
+	color: #999 !important;
+}
+#insta_feed_admin .insta_feed_shortcode_table tr.insta_feed_pro{
+	background: #eacccc;
+}
+#insta_feed_admin .insta_feed_table_key{
+	display: block;
+	float: left;
+	width: 11px;
+	height: 11px;
+	border: 1px solid #999;
+	background: #eacccc;
+	margin: 3px 6px 0 0;
+}
+#insta_feed_admin .insta_feed_plugins_promo,
+#insta_feed_admin .insta_feed_share_plugin{
+	width: 100%;
+	float: left;
+	clear: both;
+}
+#insta_feed_admin .insta_feed_plugins_promo a{
+	color: #e34f0e;
+}
+#insta_feed_admin .insta_feed_share_plugin{
+	border-top: 1px solid #ccc;
+	margin: 20px 0 0 0;
+}
+
+/* Quick links */
+#insta_feed_admin .sb_instagram_contents_links{
+	float: left;
+	clear: both;
+	width: 100%;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 15px;
+}
+#insta_feed_admin .sb_instagram_contents_links a,
+#insta_feed_admin .sb_instagram_contents_links span{
+	display: block;
+	float: left;
+	padding: 2px 5px;
+}
+#insta_feed_admin .sb_instagram_contents_links span{
+	padding-left: 0;
+}
+
+#insta_feed_admin #sb_instagram_width_options{
+	margin-top: 5px;
+	display: none;
+}
+#insta_feed_admin #sb_instagram_width_options label {
+	font-size: 13px;
+	position: relative;
+	top: -2px;
+}
+
+/* Shortcode labels */
+#insta_feed_admin label{
+	position: relative;
+}
+#insta_feed_admin th{
+	position: relative;
+}
+#insta_feed_admin .insta_feed_shortcode{
+	display: none;
+	position: absolute;
+	z-index: 10;
+	font-size: 11px;
+	float: left;
+	width: auto;
+	white-space: pre-line;
+	line-height: 1.4;
+}
+#insta_feed_admin .insta_feed_shortcode_symbol{
+	position: absolute;
+	right: -24px;
+	bottom: 0px;
+  padding: 2px 4px 3px 3px;
+	width: auto;
+	font-size: 11px;
+	margin-left: 5px;
+}
+
+
+/* Error notice */
+#insta_feed_admin .insta_feed_notice{
+	margin-top: 5px;
+	background: #f9ecda;
+	padding: 5px 10px;
+	border: 1px solid #e89a2e;
+	color: #cf6100;
+
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+#insta_feed_admin .insta_feed_notice a{
+	color: #d85600;
+}
+#insta_feed_admin .insta_feed_notice a:hover,
+#insta_feed_admin .insta_feed_notice a:focus{
+	color: #a34100;
+}
+#insta_feed_admin .insta_feed_notice p{
+	margin: 0;
+	padding: 5px 0;
+	font-size: 13px;
+}
+#insta_feed_admin .insta_feed_user_id_error{
+	display: none;
+
+	margin: 10px 0;
+	background: #F7E6E6;
+	padding: 5px 10px;
+	border: 1px solid #BA7B7B;
+	color: #592626;
+
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+/* Update notice */
+.sb_instagram_notice{
+	position: relative;
+	clear: both;
+	width: 96%;
+	margin: 20px 0;
+	background: #F7E6E6;
+	padding: 15px 1.5%;
+	border: 1px solid #BA7B7B;
+	color: #592626;
+
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.sb_instagram_notice .sb_instagram_notice_title{
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+.sb_instagram_notice p{
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+}
+.sb_instagram_dismiss{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #dd3d36;
+	text-decoration: none;
+}
+
+/* Review notice */
+.insta_feed_review_notice{
+    position: relative;
+    overflow: hidden;
+    max-width: 870px;
+    margin-top: 10px;
+    padding: 10px 10px 7px 10px;
+
+    background: #E6F0E8;
+    border: 1px solid #6AB074;
+    color: #214F28;
+}
+.insta_feed_review_notice img{
+    width: 84px;
+    margin: 0 0 0 -100% !important;
+
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+.insta_feed_review_notice .ctf-notice-text{
+    float: left;
+    clear: none;
+    width: 100%;
+    padding: 4px 0;
+}
+.insta_feed_review_notice p{
+    float: left;
+    clear: both;
+    width: auto;
+    margin: 0 0 0 100px !important;
+    padding: 4px 40px 4px 0;
+}
+.insta_feed_review_notice a{
+    display: inline-block;
+    padding: 0 8px;
+    color: #178529;
+}
+.insta_feed_review_notice a:hover,
+.insta_feed_review_notice a:focus{
+    color: #0c7abf;
+}
+.insta_feed_review_notice .links{
+    margin: 0 0 0 92px !important;
+    padding: 4px 0 0 0;
+}
+.insta_feed_review_notice .links a:first-child{
+    /*padding-left: 0;*/
+}
+.insta_feed_review_notice .insta_feed_notice_close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    line-height: 1;
+}
+.insta_feed_review_notice .insta_feed_notice_close:hover,
+.insta_feed_review_notice .insta_feed_notice_close:focus{
+    color: #a34100;
+}
+#toplevel_page_isl-feed ul li:nth-child(4){ display: none !important;}
+#toplevel_page_isl-feed ul li:nth-child(5){ display: none !important;}
+.isl-ad-error{ color: red;}
+
+.column-feed_link {
+	width: 25% !important;
+}
+
+span.admin_add_shop_link_submit.button.button-primary { margin: 10px 10px 10px 0px;}
+span.admin_add_shop_link_close.button.button-primary { margin: 10px 10px 10px 0px;}
+span.admin_add_shop_link.button.button-primary {
+	margin-left: 20px;
+	margin-top: 17px;
+}
+
